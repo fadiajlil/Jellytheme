@@ -1,0 +1,42 @@
+/* === Jellyfin Media Bar (slideshowpure) overrides === */
+
+/* Volume button position */
+.volume-toggle{
+    top: 7em !important;      /* was 5em */
+    right: 8.5em !important;  /* was 3.5em */
+}
+
+/* Left arrow position */
+.left-arrow{
+    left: 240px !important;   /* was 20px */
+    top: 500px !important;
+}
+
+/* Right arrow position */
+.right-arrow{
+    right: 56px !important;  /* was 20px */
+    top: 500px !important;
+}
+
+/* Pause button position */
+.pause-button{
+    top: 7em !important;      /* was 5em */
+    right: 5.8em !important;  /* was 0.8em */
+}
+
+/* Slide positioning tweak */
+.slide{
+    left: 146px !important;  /* was 0 */
+    width: 100% !important;
+}
+
+/* Backdrop container width adjustment */
+.backdrop-container{
+    width: 107% !important;   /* was 100% */
+}
+
+/* Gradient overlay alignment + width */
+.gradient-overlay{
+    left: -149px !important;  /* was 0 */
+    width: 128% !important;   /* was 100% */
+}
