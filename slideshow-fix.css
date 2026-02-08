@@ -8,14 +8,16 @@
 
 /* Left arrow position */
 .left-arrow{
-    left: 240px !important;   /* was 20px */
-    top: 500px !important;
+    left: calc(50% + -9vh) !important;   /* was 20px */
+    top: calc(54% + 20vh) !important;
+    font-size: 34px !important;
 }
 
 /* Right arrow position */
 .right-arrow{
-    right: 56px !important;  /* was 20px */
-    top: 500px !important;
+    right: calc(51% + -4vh) !important;  /* was 20px */
+    top: calc(54% + 20vh) !important;
+    font-size: 34px !important;
 }
 
 /* Pause button position */
@@ -39,4 +41,9 @@
 .gradient-overlay{
     left: -149px !important;  /* was 0 */
     width: 128% !important;   /* was 100% */
+}
+
+.dots-container{
+    right: 50% !important;
+    top: calc(50% + 23vh) !important;
 }
